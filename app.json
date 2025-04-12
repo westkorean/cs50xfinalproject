@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "CS50xFinalProject",
+    "slug": "cs50xfinalproject-futc4yzdnr4iubqnnylny",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eastkorean.cs50xfinalprojectfutc4yzdnr4iubqnnylny"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.eastkorean.cs50xfinalprojectfutc4yzdnr4iubqnnylny"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17754bc9-9901-4e59-805c-a72c985502c2"
+      }
+    },
+    "owner": "eastkorean",
+    "updates": {
+      "url": "https://u.expo.dev/17754bc9-9901-4e59-805c-a72c985502c2"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
