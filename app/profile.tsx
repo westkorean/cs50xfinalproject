@@ -1,9 +1,13 @@
-import { View, Text } from 'react-native';
+import { useRouter } from 'expo-router';
+import { View, Text, Button } from 'react-native';
 
 export default function Profile() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>👤 Profile Page</Text>
-    </View>
-  );
-}
+    const router = useRouter();
+  
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text>Profile Screen</Text>
+        <Button title="Go Back" onPress={() => router.back()} />
+      </View>
+    );
+  }
